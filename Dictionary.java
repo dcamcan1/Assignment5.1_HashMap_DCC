@@ -40,11 +40,10 @@ public class Dictionary {
 	public String search(String word) {
 		if (wordMap.get(word) == null) {
 			return "\"" + word + "\"" + " does not exist in this dictionary.";
-		}
+		}//end if
 		else {
 			return word + ": " + wordMap.get(word) + " (hashCode: " + word.hashCode() + ")";
-		}
+		}//end else
 	}//end search
-
 	
 }//end Dictionary class

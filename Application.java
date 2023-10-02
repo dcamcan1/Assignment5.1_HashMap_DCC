@@ -20,10 +20,10 @@ public class Application {
 		System.out.println(diction.search("sore"));
 		System.out.println(diction.search("knave"));
 		System.out.println(diction.search("visionary"));
-		System.out.println(diction.search("visiwerffe")); //Testing null value
+		System.out.println(diction.search("Nullvaluetester")); //Testing null value
 		System.out.println("\n");
 		/** Tests print method. */
 		diction.printD();
-	}
+	}//end main
 
-}
+}//end Application class
